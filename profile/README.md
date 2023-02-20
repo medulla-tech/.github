@@ -1,8 +1,8 @@
 # Welcome to Medulla
 
-Pulse is a radically simple IT automation and lifecycle management tool that offers the ability to handle repetitive tasks, quickly deploy applications, operating system and proactively manage them all where ever they are. 
+Medulla is a radically simple IT automation and lifecycle management tool that offers the ability to handle repetitive tasks, quickly deploy applications, operating system and proactively manage them all where ever they are. 
 
-Pulse provides a real-time management solution for complex and distributed environments.
+Medulla provides a real-time management solution for complex and distributed environments.
 
 ## Main feature :
 
@@ -23,18 +23,18 @@ Pulse provides a real-time management solution for complex and distributed envir
 
 * Stable branch and previous tagged version
 
-Read INSTALL files of each project (first mmc-core and pulse2) 
+Read INSTALL files of each project (first medulla-server and medulla-agent) 
 
 * Devel branch
 
 Installation process had been simplified to easily install all differents components from one command line.
 
-[Easy install process](https://github.com/pulse-project/tools/tree/master/install)
+[Easy install process](https://github.com/medulla-tech/integration/tree/main/ansible)
 
 
 ## Supported clients
 
-Pulse manage either windows (from 7 to lastest CBB and LTSB), linux and Mac OSX 
+Medulla manage either windows (from 7 to lastest CBB and LTSB), linux and Mac OSX 
 
 ## Documentation
 
@@ -43,9 +43,8 @@ Read [documentation](https://pulse-user-manual.readthedocs.io)
 
 ## Community
 
-* Access community [Pulse forum](https://forum.pulse2.fr/)
 * Discuss on IRC chanel [irc.libera.chat](irc.libera.chat)
-  * Channel : #pulse-fr
-  * Channel : #pulse-en
+  * Channel : #medulla-fr
+  * Channel : #medulla-en
 * Discord Channel: https://discord.gg/JEFpWZVZ
 
