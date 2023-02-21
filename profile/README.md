@@ -23,7 +23,7 @@ Medulla provides a real-time management solution for complex and distributed env
 
 * Stable branch and previous tagged version
 
-Read INSTALL files of each project (first medulla-server and medulla-agent) 
+Read INSTALL files of each project (first medulla and medulla-agent) 
 
 * Devel branch
 
