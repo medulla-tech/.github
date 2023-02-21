@@ -1,6 +1,6 @@
 # Welcome to Medulla
 
-Medulla is a radically simple IT automation and lifecycle management tool that offers the ability to handle repetitive tasks, quickly deploy applications, operating system and proactively manage them all where ever they are. 
+Medulla RMM is a radically simple IT automation and lifecycle management tool that offers the ability to handle repetitive tasks, quickly deploy applications, operating system and proactively manage them all where ever they are. 
 
 Medulla provides a real-time management solution for complex and distributed environments.
 
