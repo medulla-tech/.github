@@ -21,13 +21,9 @@ Medulla provides a real-time management solution for complex and distributed env
 
 ## Installation
 
-* Stable branch and previous tagged version
+Medulla support different server flavor as Debian and RedHat familly (Centos / Alma Linux / Mageia)
 
-Read INSTALL files of each project (first medulla and medulla-agent) 
-
-* Devel branch
-
-Installation process had been simplified to easily install all differents components from one command line.
+Installation process had been simplified to easily install all differents components from one command line and different version (stable, dev and other).
 
 [Easy install process](https://github.com/medulla-tech/integration/tree/main/ansible)
 
