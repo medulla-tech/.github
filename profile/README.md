@@ -25,7 +25,7 @@ Medulla support different server flavor as Debian and RedHat familly (Centos / A
 
 Installation process had been simplified to easily install all differents components from one command line and different version (stable, dev and other).
 
-[Easy install process](https://github.com/medulla-tech/integration/tree/main/ansible)
+[Easy install process](https://github.com/medulla-tech/integration//blob/main/README.md)
 
 
 ## Supported clients
