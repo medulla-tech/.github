@@ -42,5 +42,4 @@ Read the [documentation](https://medulla-tech.readthedocs.io/fr/latest/)
 * Discuss on IRC chanel [irc://irc.libera.chat](https://web.libera.chat/)
   * Channel : #medulla-fr
   * Channel : #medulla-en
-* Discord Channel: https://discord.gg/JEFpWZVZ
-
+* Discord Channel: https://discord.gg/Mj8wGGp4yH
