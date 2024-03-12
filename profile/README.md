@@ -21,7 +21,7 @@ Medulla provides a real-time management solution for complex and distributed env
 
 ## Installation
 
-Installation had been simplified to easily try and use, just [downloads](https://medulla-tech.io/telecharger-medulla/)
+Installation had been simplified to easily try and use, just [download](https://medulla-tech.io/telecharger-medulla/)
 
 For large and complexe installation, follow this [links](https://github.com/medulla-tech/integration//blob/main/README.md)
 
