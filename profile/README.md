@@ -21,12 +21,9 @@ Medulla provides a real-time management solution for complex and distributed env
 
 ## Installation
 
-Medulla support different server flavor as Debian and RedHat familly (Centos / Alma Linux ),  Mageia.
+Installation had been simplified to easily try and use, just [downloads](https://medulla-tech.io/telecharger-medulla/)
 
-Installation process had been simplified to easily install all differents components from one command line and different version (stable, dev and other).
-
-[Easy install process](https://github.com/medulla-tech/integration//blob/main/README.md)
-
+For large and complexe installation, follow this [links](https://github.com/medulla-tech/integration//blob/main/README.md)
 
 ## Supported clients
 
