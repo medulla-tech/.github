@@ -31,7 +31,7 @@ Medulla manage either windows (from 7 to lastest CBB and LTSB), linux and Mac OS
 
 ## Documentation
 
-Read the [documentation](https://medulla-tech.readthedocs.io/fr/latest/) 
+Read the [documentation](https://medulla-doc.readthedocs.io/fr/latest/) 
 
 
 ## Community
