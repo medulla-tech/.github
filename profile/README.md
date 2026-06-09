@@ -6,8 +6,6 @@ Medulla RMM is an open-source IT automation and endpoint lifecycle management pl
 
 Built for modern IT teams, Medulla provides real-time management for complex, distributed, hybrid, and remote infrastructures using Python 3 and XMPP-based communications.
 
-![Medulla - Web Management Console - Overview](medulla-demo.png)
-
 ## Why Medulla?
 
 Medulla helps IT teams simplify endpoint management by combining automation, deployment, inventory, patch management, remote access, and governance into a single platform.
