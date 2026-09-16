@@ -1,56 +1,58 @@
-# Politique de Sécurité et Divulgation des Vulnérabilités (Medulla)
+*Lisez ce document en français[French](SECURITY.fr.md).*
 
-La sécurité de la plateforme **Medulla** et des agents déployés chez nos clients est notre priorité. Conformément au règlement européen *Cyber Resilience Act* (CRA), ce document définit la politique de gestion, de tri et de divulgation des vulnérabilités appliquée par l'éditeur.
+# Security Policy and Vulnerability Disclosure (Medulla)
+
+The security of the **Medulla** platform and the agents deployed at our clients is our priority. In accordance with the European regulation *Cyber Resilience Act* (CRA), this document defines the vulnerability management, triage, and disclosure policy applied by the editor.
 
 ---
 
-## 1. Versions Supportées
+## 1. Supported Versions
 
-| Version | Statut du support | Correctifs de sécurité |
+| Version | Support status | Security fixes |
 | :--- | :--- | :--- |
-| **v5.6.x (Version actuelle)** | **Support actif** | ✅ Oui (Bugs et toutes vulnérabilités) |
-| **v5.6.x-1 (Version N-1)** | **Support étendu** | ⚠️ Failles critiques uniquement (CVSS $\ge$ 7.0) |
-| ** antérieur à v5.6.x-1** | **Fin de vie (EOL)** | ❌ Aucun (Mise à jour requise vers v5.6.4) |
+| **v5.6.x (Current version)** | **Active support** | ✅ Yes (Bugs and all vulnerabilities) |
+| **v5.6.x-1 (N-1 version)** | **Extended support** | ⚠️ Critical flaws only (CVSS $\ge$ 7.0) |
+| **earlier than v5.6.x-1** | **End of Life (EOL)** | ❌ None (Update required to v5.6.4) |
 
 ---
 
-## 2. Périmètre (Scope)
+## 2. Scope
 
-**Périmètre couvert :**
-* L'**Agent Medulla** (services et exécutables Windows / Linux / macOS).
-* Le **Serveur Medulla** (API, orchestration, console Web).
-* Les **Installeurs et binaires officiels** produits et signés par NATSU.
+**Covered scope:**
+* The **Medulla Agent** (Windows / Linux / macOS services and executables).
+* The **Medulla Server** (API, orchestration, Web console).
+* The **Official installers and binaries** produced and signed by NATSU.
 
-**Périmètre exclu :**
-* Les forks non officiels du code source.
-* Les dépendances amont (Python, PHP, XMPP, Guacamole) hors de leur intégration dans nos builds officiels.
-* Les infrastructures clientes gérées en propre.
-
----
-
-## 3. Signalement d'une Vulnérabilité
-
-> **IMPORTANT : Ne créez pas d'Issue publique sur GitHub pour signaler une vulnérabilité.**
-
-Pour toute divulgation coordonnée (*Coordinated Vulnerability Disclosure*), contactez-nous de manière confidentielle :
-
-* **Email dédié** : `security@medulla-tech.io`
-* **Clé PGP publique** :
-  * *Fingerprint* : `2C7F 8241 5E76 BE1A 242B E111 562F 02D5 1ABA EFC1`
-  * *Lien direct* : `https://medulla-tech.io/.well-known/pgp-key.txt`
+**Excluded scope:**
+* Unofficial forks of the source code.
+* Upstream dependencies (Python, PHP, XMPP, Guacamole) outside of their integration in our official builds.
+* Client infrastructures managed in-house.
 
 ---
 
-## 4. Engagements et Délais de Traitement (SLA)
+## 3. Vulnerability Reporting
 
-* **Accusé de réception** : Sous **48 heures ouvrées**.
-* **Qualification CVSS** : Sous **7 jours ouvrés**.
-* **Correctif Critique (CVSS 9.0 – 10.0)** : Sous **7 jours ouvrés**.
-* **Correctif Élevé (CVSS 7.0 – 8.9)** : Sous **15 jours ouvrés**.
-* **Moyen / Faible (CVSS < 7.0)** : Intégration dans la prochaine version planifiée.
+> **IMPORTANT: Do not create a public Issue on GitHub to report a vulnerability.**
+
+For any coordinated disclosure (*Coordinated Vulnerability Disclosure*), contact us confidentially:
+
+* **Dedicated email**: `security@medulla-tech.io`
+* **Public PGP key**:
+  * *Fingerprint*: `2C7F 8241 5E76 BE1A 242B E111 562F 02D5 1ABA EFC1`
+  * *Direct link*: `https://medulla-tech.io/.well-known/pgp-key.txt`
 
 ---
 
-## 5. Divulgation Coordonnée
+## 4. Commitments and Processing Deadlines (SLA)
 
-Nous demandons un embargo raisonnable avant toute publication externe. Nous créditons systématiquement les chercheurs dans nos *Release Notes* et *Security Advisories*.
+* **Acknowledgment of receipt**: Within **48 business hours**.
+* **CVSS Qualification**: Within **7 business days**.
+* **Critical Fix (CVSS 9.0 – 10.0)**: Within **7 business days**.
+* **High Fix (CVSS 7.0 – 8.9)**: Within **15 business days**.
+* **Medium / Low (CVSS < 7.0)**: Integration in the next planned version.
+
+---
+
+## 5. Coordinated Disclosure
+
+We request a reasonable embargo before any external publication. We systematically credit researchers in our *Release Notes* and *Security Advisories*.
