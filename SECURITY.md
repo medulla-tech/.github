@@ -1,4 +1,4 @@
-*Lisez ce document en français[French](SECURITY.fr.md).*
+*Lisez ce document en [français](SECURITY.fr.md).*
 
 # Security Policy and Vulnerability Disclosure (Medulla)
 
