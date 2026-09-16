@@ -1,4 +1,4 @@
-*Lisez ce document en français [French](NOTICE.fr.md).*
+*Lisez ce document en [français](NOTICE.fr.md).*
 
 # Legal Liability and CRA Compliance Notice
 
