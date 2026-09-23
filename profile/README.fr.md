@@ -36,6 +36,7 @@ Pensé pour les environnements distribués, Medulla permet de :
 - Debian 12 (Bookworm)
 - Ubuntu
 - Zorin OS
+- macOS 26.2 ou ultérieur
 
 **Support à venir :** Debian 13 et agent Android.
 
