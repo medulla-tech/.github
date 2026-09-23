@@ -26,8 +26,9 @@ Designed for organizations managing distributed infrastructures, Medulla enables
 - Debian 12 (Bookworm)
 - Ubuntu
 - Zorin OS
+- macOS 26.2 or later
 
-**Upcoming support:** Debian 13, MacOS and Android agents.
+**Upcoming support:** Debian 13 and Android agents.
 
 ## Supported Server Platform
 
