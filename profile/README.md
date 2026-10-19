@@ -35,7 +35,7 @@ Designed for organizations managing distributed infrastructures, Medulla enables
 - Debian 12 (Bookworm)
 
 See the documentation for minimum server requirements:
-https://docs.medulla-tech.io/books/installing-medulla/page/debian-os-installation-for-medulla-server
+https://docs.medulla-tech.io/books/installing-medulla
 
 ---
 
