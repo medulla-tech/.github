@@ -27,8 +27,9 @@ Designed for organizations managing distributed infrastructures, Medulla enables
 - Ubuntu
 - Zorin OS
 - macOS 26.2 or later
+- Android smartphones and tablets (via the MDM module)
 
-**Upcoming support:** Debian 13 and Android agents.
+**Upcoming support:** Debian 13.
 
 ## Supported Server Platform
 
@@ -108,6 +109,14 @@ Medulla relies on a distributed architecture using:
 - Pre-packaged applications
 - Automated compliance integration
 
+### Mobile Device Management (MDM)
+
+- Android smartphone and tablet management, built on the open source Headwind MDM
+- Enrollment by QR code or enrollment link
+- Application and file deployment
+- Security policies: kiosk mode, network restrictions, device lock
+- Remote commands, messages and screen control
+
 ### Secure Remote Work
 
 - Native encrypted tunnels
@@ -169,7 +178,6 @@ https://docs.medulla-tech.io/
 Upcoming features and platform improvements:
 
 - Debian 13 support
-- Android agent support
 - Additional endpoint compliance capabilities
 - Extended automation workflows
 
