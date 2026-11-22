@@ -30,15 +30,16 @@ Pensé pour les environnements distribués, Medulla permet de :
 
 ---
 
-## Postes clients supportés
+## Clients pris en charge
 
 - Windows 10 et versions ultérieures (y compris LTSC)
 - Debian 12 (Bookworm)
 - Ubuntu
 - Zorin OS
 - macOS 26.2 ou ultérieur
+- Smartphones et tablettes Android (via le module MDM)
 
-**Support à venir :** Debian 13 et agent Android.
+**Prise en charge à venir :** Debian 13.
 
 ## Serveur supporté
 
@@ -119,6 +120,14 @@ Medulla s’appuie sur une architecture distribuée reposant sur :
 - Applications pré-packagées
 - Intégration automatique dans la conformité
 
+### Gestion des terminaux mobiles (MDM)
+
+- Gestion des smartphones et tablettes Android, basée sur la solution open source Headwind MDM
+- Enrôlement par QR code ou lien d'inscription
+- Déploiement d'applications et de fichiers
+- Politiques de sécurité : mode kiosque, restrictions réseau, verrouillage
+- Commandes à distance, messages et prise en main de l'écran
+
 ### Télétravail sécurisé
 
 - Tunnels chiffrés natifs
@@ -180,7 +189,6 @@ https://docs.medulla-tech.io/
 Fonctionnalités à venir :
 
 - Support Debian 13
-- Agent Android
 - Capacités de conformité avancées
 - Automatisations étendues
 
