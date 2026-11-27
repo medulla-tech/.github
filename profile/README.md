@@ -100,7 +100,20 @@ Medulla relies on a distributed architecture using:
 - Policy-based patching by endpoint group
 - Real-time compliance dashboard
 - Windows update governance
+- Linux package updates, approved by rule
 - Bandwidth optimization
+
+### Monitoring with Probes (Reflex)
+
+- Probes assigned to a machine, a group, an entity or the whole fleet
+- Measurement frequency from five minutes upwards
+- Different thresholds per entity on the same probe
+- 24 shipped probes: security, system, storage, service and application
+- Custom probes (sh on Linux and macOS, PowerShell on Windows)
+- Alert follow-up, acknowledgement and history
+- Measurement curves, machine by machine
+- Email notifications
+- Linux, Windows and macOS
 
 ### Self-Service Kiosk
 
@@ -155,7 +168,7 @@ We provide an installable edition of Medulla, allowing you to deploy the solutio
 
 Request the installer and deployment guide here:
 
-https://medulla-tech.io/en/try-medulla+/
+https://medulla-tech.io/en/try-medulla/
 
 For detailed installation instructions and deployment documentation:
 
@@ -225,4 +238,6 @@ deployment
 cve
 open-source
 xmpp
+monitoring
+mdm
 ```
