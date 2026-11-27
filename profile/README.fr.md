@@ -2,7 +2,7 @@
 
 # Medulla RMM
 
-Medulla RMM est une plateforme open source d’automatisation IT et de gestion du cycle de vie des postes de travail, conçue pour automatiser les tâches répétitives, déployer applications et systèmes d’exploitation à grande échelle, et administrer de façon proactive des environnements IT distribués.
+Medulla RMM est une plateforme open source d’automatisation IT et de gestion du cycle de vie des postes de travail, conçue pour automatiser les tâches répétitives, déployer applications et systèmes d’exploitation à grande échelle et administrer de façon proactive des environnements IT distribués.
 
 Conçu pour les équipes IT modernes, Medulla assure une gestion en temps réel des infrastructures complexes, distribuées, hybrides et distantes, grâce à Python 3 et à des communications basées sur XMPP.
 
