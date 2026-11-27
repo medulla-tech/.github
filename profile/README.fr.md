@@ -2,31 +2,21 @@
 
 # Medulla RMM
 
-Medulla est une plateforme open source de gestion unifiée des postes de travail (RMM) conçue pour automatiser les opérations IT, industrialiser les déploiements et administrer des environnements distribués en temps réel.
+Medulla RMM est une plateforme open source d’automatisation IT et de gestion du cycle de vie des postes de travail, conçue pour automatiser les tâches répétitives, déployer applications et systèmes d’exploitation à grande échelle et administrer de façon proactive des environnements IT distribués.
 
-Conçu pour les équipes IT modernes, Medulla permet de piloter les postes de travail, serveurs et équipements distribués avec réactivité, sécurité et sans dépendance à un éditeur propriétaire.
-
-Basé sur Python 3 et des communications temps réel via XMPP, Medulla fournit une visibilité instantanée et une automatisation avancée des opérations IT.
+Conçu pour les équipes IT modernes, Medulla assure une gestion en temps réel des infrastructures complexes, distribuées, hybrides et distantes, grâce à Python 3 et à des communications basées sur XMPP.
 
 ## Pourquoi Medulla ?
 
-Medulla aide les équipes IT à simplifier la gestion des postes de travail en réunissant au sein d’une même plateforme :
+Medulla aide les équipes IT à simplifier la gestion des postes de travail en réunissant au sein d’une même plateforme l’automatisation, le déploiement, l’inventaire, la gestion des mises à jour, la prise en main à distance et la gouvernance.
 
-- Le déploiement de systèmes et d’applications
-- L’automatisation des tâches IT
-- L’inventaire matériel et logiciel temps réel
-- La gestion des mises à jour
-- La prise en main à distance
-- La conformité et la remédiation
-- La gouvernance multi-sites et multi-entités
-
-Pensé pour les environnements distribués, Medulla permet de :
+Pensé pour les organisations qui gèrent des infrastructures distribuées, Medulla permet aux administrateurs IT de :
 
 - Automatiser les opérations répétitives
-- Déployer rapidement systèmes et logiciels
+- Déployer systèmes d’exploitation et logiciels à grande échelle
 - Maintenir une visibilité temps réel sur le parc
-- Sécuriser la gestion des postes distants
-- Réduire la complexité opérationnelle et les coûts IT
+- Gouverner de façon sécurisée les environnements distribués
+- Réduire la complexité opérationnelle et le coût total de possession
 
 ---
 
@@ -55,7 +45,7 @@ https://docs.medulla-tech.io/books/installation-medulla/page/etape-1-installatio
 
 Medulla s’appuie sur une architecture distribuée reposant sur :
 
-- Python 3
+- Services backend en Python 3
 - Communications temps réel via XMPP
 - Gestion des endpoints par agent
 - Infrastructure PXE pour la masterisation
@@ -82,12 +72,12 @@ Medulla s’appuie sur une architecture distribuée reposant sur :
 - Remédiation automatisée
 - Scan CVE
 - Déploiements planifiés
-- Ciblage par groupes dynamiques
+- Ciblage par groupes
 - Gestion du cycle de vie logiciel
 
 ### Inventaire & Visibilité temps réel
 
-- Inventaire matériel et logiciel temps réel
+- Inventaire matériel et logiciel temps réel (via XMPP)
 - Visibilité des postes en ligne / hors ligne / itinérants
 - Scan réseau et découverte d’équipements
 - Groupes dynamiques auto-alimentés
@@ -96,22 +86,35 @@ Medulla s’appuie sur une architecture distribuée reposant sur :
 ### Prise en main à distance
 
 - SSH, RDP et VNC via Apache Guacamole
-- Accès distant sécurisé sans VPN
-- Journalisation des sessions
-- Audit des actions administrateur
+- Accès distant chiffré, sans VPN
+- Journalisation des sessions et piste d’audit
+- Accès sécurisé aux postes distants et itinérants
 
 ### Sauvegarde & Restauration
 
-- Sauvegarde des profils utilisateurs et données métiers
-- Restauration accélérée des postes
-- Reprise rapide d’activité
+- Sauvegarde au niveau fichier (profils et données métiers)
+- Remise en service rapide des postes
+- Restauration accélérée des postes de travail
 
 ### Gestion des mises à jour (alternative WSUS)
 
-- Gouvernance des mises à jour par groupes
+- Mises à jour pilotées par règles, par groupe de postes
 - Tableau de bord de conformité temps réel
-- Optimisation de la bande passante
 - Pilotage des mises à jour Windows
+- Mises à jour des paquets Linux, approuvées par règle
+- Optimisation de la bande passante
+
+### Supervision par sondes (Reflex)
+
+- Sondes posées sur une machine, un groupe, une entité ou tout le parc
+- Fréquence de mesure à partir de cinq minutes
+- Seuils différents selon l'entité, sur une même sonde
+- 24 sondes livrées : sécurité, système, stockage, service et application
+- Sondes personnelles (sh sous Linux et macOS, PowerShell sous Windows)
+- Suivi, acquittement et historique des alertes
+- Courbes de mesures, machine par machine
+- Notifications par courriel
+- Linux, Windows et macOS
 
 ### Kiosque applicatif
 
@@ -189,7 +192,7 @@ https://docs.medulla-tech.io/
 Fonctionnalités à venir :
 
 - Support Debian 13
-- Capacités de conformité avancées
+- Capacités supplémentaires de conformité des postes
 - Automatisations étendues
 
 ---
@@ -236,4 +239,6 @@ deployment
 cve
 open-source
 xmpp
+monitoring
+mdm
 ```
